@@ -1,20 +1,18 @@
 {
-    "charts": {},
-    "test": {},
     "system": {
-    "volsync": {
-            "app_readme": "<p>volsync is a storage backup and synchronisation tool.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/volsync\">https://truecharts.org/charts/incubator/volsync</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+        "volsync": {
+            "app_readme": "<p>volsync is a storage backup and synchronisation tool.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/system/volsync\">https://truecharts.org/charts/system/volsync</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "network"
             ],
             "description": "volsync is a storage backup and synchronisation tool.",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://truecharts.org/charts/incubator/volsync",
-            "location": "/home/runner/_work/catalog/catalog/incubator/volsync",
-            "latest_version": "1.0.7",
-            "latest_app_version": "0.9.1",
-            "latest_human_version": "0.9.1_1.0.7",
+            "home": "https://truecharts.org/charts/system/volsync",
+            "location": "/home/runner/_work/catalog/catalog/system/volsync",
+            "latest_version": "2.4.1",
+            "latest_app_version": "0.10.0",
+            "latest_human_version": "0.10.0_2.4.1",
             "last_update": "2024-05-29 12:35:14",
             "name": "volsync",
             "recommended": false,
@@ -29,12 +27,14 @@
             "tags": [],
             "screenshots": [],
             "sources": [
+                "https://github.com/truecharts/charts/tree/master/charts/system/volsync",
                 "https://github.com/volsync/volsync",
                 "https://github.com/volsync/volsync-helm-chart",
-                "https://volsync.readthedocs.io/",
-                "https://github.com/truecharts/charts/tree/master/charts/incubator/volsync",
-                "https://quay.io/backube/volsync"
+                "https://quay.io/backube/volsync",
+                "https://quay.io/brancz/kube-rbac-proxy",
+                "https://volsync.readthedocs.io/"
             ],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/volsync.webp"
-        },
+        }
+    }
 }
